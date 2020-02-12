@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Marine Training Guide</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="footer, address, phone, icons" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+	</script>
+<link rel="stylesheet" type="text/css" href="Proj.css">
+
+</head>
+
+<body>
+
+<div class="header">
+	<p style="font-size:36px;">MARINE TRAINING GUIDE</p>
+  <p>For the best. By the best.</p>
+</div>
+
+<div class="w3-bar">
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a>
+    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i> About us</a>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button"><i class="fa fa-bars"></i> Courses</button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="ASC.html" class="w3-bar-item w3-button">Advanced Safety Courses</a>
+        <a href="#" class="w3-bar-item w3-button">Allied Courses</a>
+        <a href="#" class="w3-bar-item w3-button">Basic Safety Courses</a>
+		<a href="#" class="w3-bar-item w3-button">Simulator Courses</a>
+        <a href="#" class="w3-bar-item w3-button">Tanker Courses</a>
+        <a href="#" class="w3-bar-item w3-button">Refresher Courses</a>
+      </div>
+    </div>
+  </div>
+  
+  <br><br>
+<div style="float: left; width: 50%; background-color:white;">
+<p style="font-size: 20px; text-align:center; color:black;">COURSES</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">Advanced Safety Courses</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">Allied Courses</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">Basic Safety Courses</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">Simulator Courses</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">Tanker Courses</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">Refresher Courses</p>
+</div>
+
+<div style="float: right; width: 50%; background-color:white;">
+<p style="font-size: 20px; text-align:center; color:black;">COMPANIES</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">The Maritime Training Center of the Philippines</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">"K" Line Maritime Academy Philippines</p>
+	<p style="font-size: 16px; text-align: center; margin: 24px 24px 24px 24px">Sandigan Maritime Training Inc.</p>
+</div>
+<br><br><br>
+  	<!--slideshow-->
+<div class="slideshow-container">
+<div class="mySlides fadeX">
+  <div class="numbertext">1 / 4</div>
+  <img src="img/4.jpg" style="height:150px; width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fadeX">
+  <div class="numbertext">2 / 4</div>
+  <img src="img/2.jpg" style="height:150px; width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fadeX">
+  <div class="numbertext">3 / 4</div>
+  <img src="img/3.jpg" style="height:150px; width:100%">
+  <div class="text"></div>
+</div>	
+
+<div class="mySlides fadeX">
+  <div class="numbertext">4 / 4</div>
+  <img src="img/1.jpg" style="height:150px; width:100%">
+  <div class="text"></div>
+</div>	
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3500); // eto yung para sa time ng slideshow
+}
+</script>
+
+	<!--end of slideshow-->
+
+	<!--tab and footer-->	
+	
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h1 style="color: white;">MARINE TRAINING GUIDE</h1>
+				<p style="font-size: 16px; color: white;"> Your decisions determine the future.</p>
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="Products.html">About Us</a>
+					·
+					<a href="ASC.html">Courses</a>
+					·
+				</p>
+
+				<p class="footer-company-name">Marine Training Guide &copy; 2018</p>
+			</div>
+
+			<div class="footer-center">
+			
+				<div>
+					<p style="margin-top: 16px;"> Contact Info: </p>
+				</div>
+				
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>John Carlo Prajio: 09054890428</p>
+					
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p>iloveyoucziglot@gmail.com</p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Marine Training Guide..............
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+
+	</body>
+</html>
